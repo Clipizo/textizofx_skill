@@ -1,0 +1,276 @@
+{
+  "name": "Apple Word Lift",
+  "text": "Designed to move",
+  "font": "Arial",
+  "style": "Bold",
+  "size": 1.6,
+  "center": [
+    0.5,
+    0.5
+  ],
+  "align": "center",
+  "vertical_anchor": "baseline",
+  "tracking": -0.002,
+  "line_spacing": 1,
+  "rotation": 0,
+  "rotation_x": 0,
+  "rotation_y": 0,
+  "fit": true,
+  "alpha": 1,
+  "in": {
+    "opacity": {
+      "by": "words",
+      "start": 0,
+      "end": 30,
+      "stagger": 25,
+      "from": 0,
+      "to": 1,
+      "ease": "in_out_sine"
+    },
+    "blur": {
+      "by": "words",
+      "start": 0,
+      "end": 32,
+      "stagger": 25,
+      "from": 0.12,
+      "to": 0,
+      "ease": "out_cubic"
+    },
+    "position": {
+      "by": "words",
+      "start": 0,
+      "end": 32,
+      "stagger": 25,
+      "from": [
+        0,
+        -0.05
+      ],
+      "to": [
+        0,
+        0
+      ],
+      "ease": "out_quart"
+    },
+    "size": {
+      "by": "words",
+      "start": 0,
+      "end": 32,
+      "stagger": 25,
+      "from": 1.06,
+      "to": 1,
+      "ease": "out_quart"
+    }
+  },
+  "out": {
+    "opacity": {
+      "by": "words",
+      "start": 100,
+      "end": 112,
+      "stagger": 25,
+      "to": 0,
+      "ease": "in_out_sine"
+    },
+    "blur": {
+      "by": "words",
+      "start": 100,
+      "end": 112,
+      "stagger": 25,
+      "to": 0.12,
+      "ease": "in_quad"
+    },
+    "position": {
+      "by": "words",
+      "start": 100,
+      "end": 112,
+      "stagger": 25,
+      "to": [
+        0,
+        0.035
+      ],
+      "ease": "in_quart"
+    }
+  },
+  "elements": {
+    "1": {
+      "appearance": "normal",
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "opacity": 1,
+      "thickness": 0.02,
+      "offset": [
+        0,
+        0
+      ],
+      "softness": 0,
+      "border_level": "letters",
+      "extend": [
+        0,
+        0
+      ],
+      "round": 0
+    }
+  },
+  "motion_blur": false,
+  "inputs": {
+    "ShadingProxyGradient": {
+      "0": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "1": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "ShadingElement1Gradient": {
+      "0": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "1": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "ShadingElement2Thickness": 0.009,
+    "ShadingElement2Gradient": {
+      "0": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "1": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "ShadingElement2Red": 0,
+    "ShadingElement3Opacity": 0.85,
+    "ShadingElement3Offset": [
+      0.006,
+      -0.012
+    ],
+    "ShadingElement3SoftnessX": 0,
+    "ShadingElement3SoftnessY": 0,
+    "ShadingElement3Gradient": {
+      "0": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "1": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "ShadingElement4Gradient": {
+      "0": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "1": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "ShadingElement5Gradient": {
+      "0": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "1": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "ShadingElement6Gradient": {
+      "0": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "1": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "ShadingElement7Gradient": {
+      "0": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "1": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "ShadingElement8Gradient": {
+      "0": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "1": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "IntrackingAnimationEnd": 18,
+    "IntrackingStagger": 0,
+    "IntrackingStartValue": 0.05,
+    "IntrackingCurvePreset": "out_back",
+    "IntrackingCurvePresetID": "out_back",
+    "InrotationAnimationEnd": 22,
+    "InrotationStagger": 25,
+    "InrotationStartValue": -120,
+    "InrotationCurvePreset": "out_back",
+    "InrotationCurvePresetID": "out_back",
+    "InexplosionCurvePresetID": "linear",
+    "OutsizeAnimationEnd": 116,
+    "OutsizeStagger": 25,
+    "OutsizeCurvePreset": "in_back",
+    "OutsizeCurvePresetID": "in_back",
+    "OuttrackingCurvePresetID": "linear",
+    "OutrotationAnimationEnd": 116,
+    "OutrotationStagger": 25,
+    "OutrotationEndValue": 180,
+    "OutrotationCurvePreset": "in_back",
+    "OutrotationCurvePresetID": "in_back",
+    "OutexplosionCurvePresetID": "linear"
+  }
+}

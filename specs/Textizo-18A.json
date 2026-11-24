@@ -1,0 +1,159 @@
+{
+  "name": "Textizo-18A",
+  "text": "Jane Cooper  |  Director",
+  "font": "Inter",
+  "style": "SemiBold",
+  "size": 1.1,
+  "center": [
+    0.09,
+    0.17
+  ],
+  "align": "left",
+  "vertical_anchor": "baseline",
+  "tracking": 0,
+  "line_spacing": 1,
+  "rotation": 0,
+  "rotation_x": 0,
+  "rotation_y": 0,
+  "fit": true,
+  "alpha": 1,
+  "in": {
+    "opacity": {
+      "by": "lines",
+      "start": 0,
+      "end": 8,
+      "stagger": 0,
+      "from": 0,
+      "to": 1,
+      "ease": "out_quad"
+    },
+    "blur": {
+      "by": "words",
+      "start": 2,
+      "end": 20,
+      "stagger": 33.3,
+      "from": 0.12,
+      "to": 0,
+      "ease": "out_cubic"
+    },
+    "size": {
+      "by": "lines",
+      "start": 0,
+      "end": 10,
+      "stagger": 0,
+      "from": 0.92,
+      "to": 1,
+      "ease": "out_cubic"
+    }
+  },
+  "out": {
+    "opacity": {
+      "by": "lines",
+      "start": 0,
+      "end": 10,
+      "stagger": 0,
+      "to": 0,
+      "ease": "in_quad"
+    },
+    "blur": {
+      "by": "lines",
+      "start": 0,
+      "end": 10,
+      "stagger": 0,
+      "to": 0.08,
+      "ease": "in_quad"
+    }
+  },
+  "out_from_end": 4,
+  "elements": {
+    "1": {
+      "appearance": "normal",
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "opacity": 1,
+      "thickness": 0.02,
+      "offset": [
+        0,
+        0
+      ],
+      "softness": 0,
+      "border_level": "letters",
+      "extend": [
+        0,
+        0
+      ],
+      "round": 0
+    },
+    "2": {
+      "appearance": "border_fill",
+      "color": [
+        0.0627,
+        0.0667,
+        0.0784
+      ],
+      "opacity": 0.88,
+      "thickness": 0.004,
+      "offset": [
+        0,
+        0
+      ],
+      "softness": 0,
+      "border_level": "lines",
+      "extend": [
+        0.0493,
+        0.0317
+      ],
+      "round": 0.0246
+    }
+  },
+  "motion_blur": false,
+  "inputs": {
+    "ShadingProxyGradient": {
+      "0": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "1": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "ShadingElement1Gradient": {
+      "0": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "1": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "ShadingElement2Gradient": "",
+    "ShadingElement3Gradient": "",
+    "ShadingElement4Gradient": "",
+    "ShadingElement5Gradient": "",
+    "ShadingElement6Gradient": "",
+    "ShadingElement7Gradient": "",
+    "ShadingElement8Gradient": "",
+    "IncenterCurvePresetID": "linear",
+    "IntrackingCurvePresetID": "linear",
+    "InrotationCurvePresetID": "linear",
+    "InexplosionCurvePresetID": "linear",
+    "OutcenterCurvePresetID": "linear",
+    "OutsizeCurvePresetID": "linear",
+    "OuttrackingCurvePresetID": "linear",
+    "OutrotationCurvePresetID": "linear",
+    "OutexplosionCurvePresetID": "linear"
+  }
+}

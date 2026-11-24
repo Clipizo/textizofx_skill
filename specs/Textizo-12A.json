@@ -1,0 +1,216 @@
+{
+  "name": "Textizo-12A",
+  "text": "BREAKING NEWS",
+  "font": "Anton",
+  "style": "Regular",
+  "size": 2.1,
+  "center": [
+    0.5,
+    0.4145
+  ],
+  "align": "center",
+  "vertical_anchor": "baseline",
+  "tracking": 0,
+  "line_spacing": 1,
+  "rotation": 0,
+  "rotation_x": 0,
+  "rotation_y": 0,
+  "fit": true,
+  "alpha": 1,
+  "in": {
+    "opacity": {
+      "by": "letters",
+      "start": 2,
+      "end": 18,
+      "stagger": 40,
+      "from": 0,
+      "to": 1,
+      "ease": "out_quad"
+    },
+    "blur": {
+      "by": "letters",
+      "start": 2,
+      "end": 21,
+      "stagger": 20,
+      "from": 0.14,
+      "to": 0,
+      "ease": "out_cubic"
+    },
+    "position": {
+      "by": "letters",
+      "start": 2,
+      "end": 23,
+      "stagger": 15,
+      "from": [
+        0,
+        0.06
+      ],
+      "to": [
+        0,
+        0
+      ],
+      "ease": "out_back"
+    },
+    "size": {
+      "by": "lines",
+      "start": 0,
+      "end": 8,
+      "stagger": 0,
+      "from": 0,
+      "to": 1,
+      "ease": "out_back"
+    }
+  },
+  "out": {
+    "opacity": {
+      "by": "letters",
+      "start": 0,
+      "end": 13,
+      "stagger": 10,
+      "to": 0,
+      "ease": "in_quad"
+    },
+    "blur": {
+      "by": "letters",
+      "start": 0,
+      "end": 13,
+      "stagger": 10,
+      "to": 0.12,
+      "ease": "in_quad"
+    },
+    "position": {
+      "by": "letters",
+      "start": 0,
+      "end": 13,
+      "stagger": 10,
+      "to": [
+        0,
+        -0.05
+      ],
+      "ease": "in_back"
+    },
+    "size": {
+      "by": "lines",
+      "start": 9,
+      "end": 16,
+      "stagger": 0,
+      "to": 0,
+      "ease": "in_back"
+    }
+  },
+  "out_from_end": 4,
+  "elements": {
+    "1": {
+      "appearance": "normal",
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "opacity": 1,
+      "thickness": 0.02,
+      "offset": [
+        0,
+        0
+      ],
+      "softness": 0,
+      "border_level": "letters",
+      "extend": [
+        0,
+        0
+      ],
+      "round": 0
+    },
+    "2": {
+      "appearance": "border_fill",
+      "color": [
+        0.898,
+        0.0353,
+        0.0784
+      ],
+      "opacity": 1,
+      "thickness": 0.004,
+      "offset": [
+        0,
+        0
+      ],
+      "softness": 0,
+      "border_level": "lines",
+      "extend": [
+        0.0605,
+        0.0296
+      ],
+      "round": 0.047
+    },
+    "3": {
+      "appearance": "border_fill",
+      "color": [
+        0,
+        0,
+        0
+      ],
+      "opacity": 0.4,
+      "thickness": 0.02,
+      "offset": [
+        0.003,
+        -0.007
+      ],
+      "softness": 0.05,
+      "border_level": "lines",
+      "extend": [
+        0.0605,
+        0.0296
+      ],
+      "round": 0.047
+    }
+  },
+  "motion_blur": {
+    "shutter": 180,
+    "quality": 2,
+    "bias": 0,
+    "spread": 1
+  },
+  "inputs": {
+    "ShadingProxyGradient": {
+      "0": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "1": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "ShadingElement1Gradient": {
+      "0": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "1": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "ShadingElement2Gradient": "",
+    "ShadingElement3Gradient": "",
+    "ShadingElement4Gradient": "",
+    "ShadingElement5Gradient": "",
+    "ShadingElement6Gradient": "",
+    "ShadingElement7Gradient": "",
+    "ShadingElement8Gradient": "",
+    "IntrackingCurvePresetID": "linear",
+    "InrotationCurvePresetID": "linear",
+    "InexplosionCurvePresetID": "linear",
+    "OuttrackingCurvePresetID": "linear",
+    "OutrotationCurvePresetID": "linear",
+    "OutexplosionCurvePresetID": "linear"
+  }
+}

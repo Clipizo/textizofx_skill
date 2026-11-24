@@ -1,0 +1,171 @@
+{
+  "name": "Textizo-15A",
+  "text": "Summer Vibes",
+  "font": "Fredoka",
+  "style": "Bold",
+  "size": 2.4,
+  "center": [
+    0.5,
+    0.4022
+  ],
+  "align": "center",
+  "vertical_anchor": "baseline",
+  "tracking": 0,
+  "line_spacing": 1,
+  "rotation": 0,
+  "rotation_x": 0,
+  "rotation_y": 0,
+  "fit": true,
+  "alpha": 1,
+  "in": {
+    "opacity": {
+      "by": "letters",
+      "start": 0,
+      "end": 19,
+      "stagger": 53.3,
+      "from": 0,
+      "to": 1,
+      "ease": "out_quad"
+    },
+    "position": {
+      "by": "letters",
+      "start": 0,
+      "end": 28,
+      "stagger": 13.3,
+      "from": [
+        0,
+        -0.05
+      ],
+      "to": [
+        0,
+        0
+      ],
+      "ease": "out_back"
+    },
+    "size": {
+      "by": "letters",
+      "start": 0,
+      "end": 28,
+      "stagger": 13.3,
+      "from": 0.5,
+      "to": 1,
+      "ease": "out_back"
+    }
+  },
+  "out": {
+    "opacity": {
+      "by": "letters",
+      "start": 0,
+      "end": 15,
+      "stagger": 11.4,
+      "to": 0,
+      "ease": "in_cubic"
+    },
+    "position": {
+      "by": "letters",
+      "start": 0,
+      "end": 15,
+      "stagger": 11.4,
+      "to": [
+        0,
+        0.05
+      ],
+      "ease": "in_back"
+    }
+  },
+  "out_from_end": 4,
+  "elements": {
+    "1": {
+      "appearance": "normal",
+      "color": [
+        1,
+        0.8235,
+        0.2471
+      ],
+      "opacity": 1,
+      "thickness": 0.02,
+      "offset": [
+        0,
+        0
+      ],
+      "softness": 0,
+      "border_level": "letters",
+      "extend": [
+        0,
+        0
+      ],
+      "round": 0,
+      "gradient": {
+        "colors": {
+          "0": [
+            1.0,
+            0.8235,
+            0.2471,
+            1.0
+          ],
+          "0.5": [
+            1.0,
+            0.549,
+            0.2588,
+            1.0
+          ],
+          "1": [
+            1.0,
+            0.2353,
+            0.5569,
+            1.0
+          ]
+        },
+        "angle": 0,
+        "span": "text",
+        "scale": 1,
+        "aspect": 1
+      }
+    },
+    "3": {
+      "appearance": "normal",
+      "color": [
+        0.3569,
+        0.1647,
+        0.5255
+      ],
+      "opacity": 1,
+      "thickness": 0.02,
+      "offset": [
+        0.0078,
+        -0.0156
+      ],
+      "softness": 0,
+      "border_level": "letters",
+      "extend": [
+        0,
+        0
+      ],
+      "round": 0
+    }
+  },
+  "motion_blur": {
+    "shutter": 180,
+    "quality": 2,
+    "bias": 0,
+    "spread": 1
+  },
+  "inputs": {
+    "ShadingElement2Gradient": "",
+    "ShadingElement3Gradient": "",
+    "ShadingElement4Gradient": "",
+    "ShadingElement5Gradient": "",
+    "ShadingElement6Gradient": "",
+    "ShadingElement7Gradient": "",
+    "ShadingElement8Gradient": "",
+    "InblurCurvePresetID": "linear",
+    "IntrackingCurvePresetID": "linear",
+    "InrotationCurvePresetID": "linear",
+    "InexplosionCurvePresetID": "linear",
+    "OutblurCurvePresetID": "linear",
+    "OutsizeCurvePresetID": "linear",
+    "OuttrackingCurvePresetID": "linear",
+    "OutrotationCurvePresetID": "linear",
+    "OutexplosionCurvePresetID": "linear"
+  }
+}

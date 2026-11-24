@@ -1,0 +1,199 @@
+{
+  "name": "Textizo-11A",
+  "text": "NEW VIDEO",
+  "font": "Poppins",
+  "style": "Bold",
+  "size": 1.7,
+  "center": [
+    0.5,
+    0.4308
+  ],
+  "align": "center",
+  "vertical_anchor": "baseline",
+  "tracking": 0,
+  "line_spacing": 1,
+  "rotation": 0,
+  "rotation_x": 0,
+  "rotation_y": 0,
+  "fit": true,
+  "alpha": 1,
+  "in": {
+    "opacity": {
+      "by": "words",
+      "start": 3,
+      "end": 11,
+      "stagger": 100,
+      "from": 0,
+      "to": 1,
+      "ease": "out_quad"
+    },
+    "blur": {
+      "by": "words",
+      "start": 3,
+      "end": 14,
+      "stagger": 57.1,
+      "from": 0.1,
+      "to": 0,
+      "ease": "out_cubic"
+    },
+    "position": {
+      "by": "words",
+      "start": 3,
+      "end": 16,
+      "stagger": 44.4,
+      "from": [
+        0,
+        -0.04
+      ],
+      "to": [
+        0,
+        0
+      ],
+      "ease": "out_back"
+    },
+    "size": {
+      "by": "lines",
+      "start": 0,
+      "end": 12,
+      "stagger": 0,
+      "from": 0.6,
+      "to": 1,
+      "ease": "out_back"
+    }
+  },
+  "out": {
+    "opacity": {
+      "by": "lines",
+      "start": 4,
+      "end": 12,
+      "stagger": 0,
+      "to": 0,
+      "ease": "in_quad"
+    },
+    "size": {
+      "by": "lines",
+      "start": 0,
+      "end": 12,
+      "stagger": 0,
+      "to": 0,
+      "ease": "in_back"
+    }
+  },
+  "out_from_end": 4,
+  "elements": {
+    "1": {
+      "appearance": "normal",
+      "color": [
+        0.0667,
+        0.0667,
+        0.0667
+      ],
+      "opacity": 1,
+      "thickness": 0.02,
+      "offset": [
+        0,
+        0
+      ],
+      "softness": 0,
+      "border_level": "letters",
+      "extend": [
+        0,
+        0
+      ],
+      "round": 0
+    },
+    "2": {
+      "appearance": "border_fill",
+      "color": [
+        1,
+        0.8392,
+        0.0392
+      ],
+      "opacity": 1,
+      "thickness": 0.004,
+      "offset": [
+        0,
+        0
+      ],
+      "softness": 0,
+      "border_level": "lines",
+      "extend": [
+        0.0598,
+        0.0326
+      ],
+      "round": 0.1741
+    },
+    "3": {
+      "appearance": "border_fill",
+      "color": [
+        0,
+        0,
+        0
+      ],
+      "opacity": 0.35,
+      "thickness": 0.02,
+      "offset": [
+        0.003,
+        -0.008
+      ],
+      "softness": 0.06,
+      "border_level": "lines",
+      "extend": [
+        0.0598,
+        0.0326
+      ],
+      "round": 0.1741
+    }
+  },
+  "motion_blur": {
+    "shutter": 180,
+    "quality": 2,
+    "bias": 0,
+    "spread": 1
+  },
+  "inputs": {
+    "ShadingProxyGradient": {
+      "0": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "1": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "ShadingElement1Gradient": {
+      "0": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "1": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "ShadingElement2Gradient": "",
+    "ShadingElement3Gradient": "",
+    "ShadingElement4Gradient": "",
+    "ShadingElement5Gradient": "",
+    "ShadingElement6Gradient": "",
+    "ShadingElement7Gradient": "",
+    "ShadingElement8Gradient": "",
+    "IntrackingCurvePresetID": "linear",
+    "InrotationCurvePresetID": "linear",
+    "InexplosionCurvePresetID": "linear",
+    "OutblurCurvePresetID": "linear",
+    "OutcenterCurvePresetID": "linear",
+    "OuttrackingCurvePresetID": "linear",
+    "OutrotationCurvePresetID": "linear",
+    "OutexplosionCurvePresetID": "linear"
+  }
+}

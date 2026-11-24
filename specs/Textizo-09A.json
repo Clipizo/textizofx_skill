@@ -1,0 +1,143 @@
+{
+  "name": "Textizo-09A",
+  "text": "Loading story...",
+  "font": "Courier New",
+  "style": "Bold",
+  "size": 1.3,
+  "center": [
+    0.5,
+    0.447
+  ],
+  "align": "center",
+  "vertical_anchor": "baseline",
+  "tracking": 0,
+  "line_spacing": 1,
+  "rotation": 0,
+  "rotation_x": 0,
+  "rotation_y": 0,
+  "fit": true,
+  "alpha": 1,
+  "in": {
+    "opacity": {
+      "by": "letters",
+      "start": 0,
+      "end": 37,
+      "stagger": 125,
+      "from": 0,
+      "to": 1,
+      "ease": "linear"
+    },
+    "blur": {
+      "by": "letters",
+      "start": 0,
+      "end": 38,
+      "stagger": 83.3,
+      "from": 0.06,
+      "to": 0,
+      "ease": "out_quad"
+    }
+  },
+  "out": {
+    "opacity": {
+      "by": "letters",
+      "start": 98,
+      "end": 113,
+      "stagger": 20,
+      "to": 0,
+      "ease": "in_quad"
+    }
+  },
+  "elements": {
+    "1": {
+      "appearance": "normal",
+      "color": [
+        0.949,
+        0.949,
+        0.949
+      ],
+      "opacity": 1,
+      "thickness": 0.02,
+      "offset": [
+        0,
+        0
+      ],
+      "softness": 0,
+      "border_level": "letters",
+      "extend": [
+        0,
+        0
+      ],
+      "round": 0
+    },
+    "3": {
+      "appearance": "normal",
+      "color": [
+        0,
+        0,
+        0
+      ],
+      "opacity": 0.6,
+      "thickness": 0.02,
+      "offset": [
+        0.0026,
+        -0.0052
+      ],
+      "softness": 0.04,
+      "border_level": "letters",
+      "extend": [
+        0,
+        0
+      ],
+      "round": 0
+    }
+  },
+  "motion_blur": false,
+  "inputs": {
+    "ShadingProxyGradient": {
+      "0": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "1": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "ShadingElement1Gradient": {
+      "0": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "1": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "ShadingElement2Gradient": "",
+    "ShadingElement3Gradient": "",
+    "ShadingElement4Gradient": "",
+    "ShadingElement5Gradient": "",
+    "ShadingElement6Gradient": "",
+    "ShadingElement7Gradient": "",
+    "ShadingElement8Gradient": "",
+    "IncenterCurvePresetID": "linear",
+    "InsizeCurvePresetID": "linear",
+    "IntrackingCurvePresetID": "linear",
+    "InrotationCurvePresetID": "linear",
+    "InexplosionCurvePresetID": "linear",
+    "OutblurCurvePresetID": "linear",
+    "OutcenterCurvePresetID": "linear",
+    "OutsizeCurvePresetID": "linear",
+    "OuttrackingCurvePresetID": "linear",
+    "OutrotationCurvePresetID": "linear",
+    "OutexplosionCurvePresetID": "linear"
+  }
+}

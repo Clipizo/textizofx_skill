@@ -1,0 +1,312 @@
+{
+  "name": "Zoom Slam",
+  "text": "BOOM!",
+  "font": "Arial Black",
+  "style": "Regular",
+  "size": 2.8,
+  "center": [
+    0.5,
+    0.5
+  ],
+  "align": "center",
+  "vertical_anchor": "baseline",
+  "tracking": 0,
+  "line_spacing": 1,
+  "rotation": 0,
+  "rotation_x": 0,
+  "rotation_y": 0,
+  "fit": true,
+  "alpha": 1,
+  "in": {
+    "opacity": {
+      "by": "letters",
+      "start": 0,
+      "end": 12,
+      "stagger": 50,
+      "from": 0,
+      "to": 1,
+      "ease": "out_quad"
+    },
+    "blur": {
+      "by": "letters",
+      "start": 0,
+      "end": 17,
+      "stagger": 22.2,
+      "from": 0.2,
+      "to": 0,
+      "ease": "out_cubic"
+    },
+    "size": {
+      "by": "letters",
+      "start": 0,
+      "end": 18,
+      "stagger": 20,
+      "from": 4,
+      "to": 1,
+      "ease": "out_back"
+    },
+    "rotation": {
+      "by": "letters",
+      "start": 0,
+      "end": 18,
+      "stagger": 20,
+      "from": 25,
+      "to": 0,
+      "ease": "out_back"
+    }
+  },
+  "out": {
+    "opacity": {
+      "by": "letters",
+      "start": 100,
+      "end": 114,
+      "stagger": 18.8,
+      "to": 0,
+      "ease": "in_quad"
+    },
+    "blur": {
+      "by": "letters",
+      "start": 100,
+      "end": 114,
+      "stagger": 18.8,
+      "to": 0.2,
+      "ease": "in_quad"
+    },
+    "size": {
+      "by": "letters",
+      "start": 100,
+      "end": 114,
+      "stagger": 18.8,
+      "to": 3.5,
+      "ease": "in_cubic"
+    }
+  },
+  "elements": {
+    "1": {
+      "appearance": "normal",
+      "color": [
+        1,
+        0.84,
+        0.05
+      ],
+      "opacity": 1,
+      "thickness": 0.02,
+      "offset": [
+        0,
+        0
+      ],
+      "softness": 0,
+      "border_level": "letters",
+      "extend": [
+        0,
+        0
+      ],
+      "round": 0
+    },
+    "2": {
+      "appearance": "outline",
+      "color": [
+        0,
+        0,
+        0
+      ],
+      "opacity": 1,
+      "thickness": 0.0105,
+      "offset": [
+        0,
+        0
+      ],
+      "softness": 0,
+      "border_level": "letters",
+      "extend": [
+        0,
+        0
+      ],
+      "round": 0
+    },
+    "3": {
+      "appearance": "normal",
+      "color": [
+        0,
+        0,
+        0
+      ],
+      "opacity": 0.85,
+      "thickness": 0.02,
+      "offset": [
+        0.007,
+        -0.014
+      ],
+      "softness": 0,
+      "border_level": "letters",
+      "extend": [
+        0,
+        0
+      ],
+      "round": 0
+    }
+  },
+  "motion_blur": {
+    "shutter": 180,
+    "quality": 2,
+    "bias": 0,
+    "spread": 1
+  },
+  "inputs": {
+    "ShadingProxyGradient": {
+      "0": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "1": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "ShadingElement1Gradient": {
+      "0": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "1": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "ShadingElement2Gradient": {
+      "0": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "1": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "ShadingElement3Gradient": {
+      "0": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "1": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "ShadingElement4Gradient": {
+      "0": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "1": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "ShadingElement5Gradient": {
+      "0": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "1": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "ShadingElement6Gradient": {
+      "0": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "1": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "ShadingElement7Gradient": {
+      "0": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "1": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "ShadingElement8Gradient": {
+      "0": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "1": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "IncenterAnimationEnd": 22,
+    "IncenterStagger": 25,
+    "IncenterStartValue": [
+      0,
+      -0.12
+    ],
+    "IncenterCurvePreset": "out_back",
+    "IncenterCurvePresetID": "out_back",
+    "IntrackingAnimationEnd": 18,
+    "IntrackingStagger": 0,
+    "IntrackingStartValue": 0.05,
+    "IntrackingCurvePreset": "out_back",
+    "IntrackingCurvePresetID": "out_back",
+    "InexplosionCurvePresetID": "linear",
+    "OutcenterAnimationEnd": 116,
+    "OutcenterStagger": 25,
+    "OutcenterEndValue": [
+      0,
+      0.1
+    ],
+    "OutcenterCurvePreset": "in_back",
+    "OutcenterCurvePresetID": "in_back",
+    "OuttrackingCurvePresetID": "linear",
+    "OutrotationAnimationEnd": 116,
+    "OutrotationStagger": 25,
+    "OutrotationEndValue": 180,
+    "OutrotationCurvePreset": "in_back",
+    "OutrotationCurvePresetID": "in_back",
+    "OutexplosionCurvePresetID": "linear"
+  }
+}

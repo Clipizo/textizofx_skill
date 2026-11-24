@@ -1,0 +1,183 @@
+{
+  "name": "Textizo-19A",
+  "text": "$1,000,000",
+  "font": "Kanit",
+  "style": "Black",
+  "size": 2.6,
+  "center": [
+    0.5,
+    0.3941
+  ],
+  "align": "center",
+  "vertical_anchor": "baseline",
+  "tracking": 0,
+  "line_spacing": 1,
+  "rotation": 0,
+  "rotation_x": 0,
+  "rotation_y": 0,
+  "fit": true,
+  "alpha": 1,
+  "in": {
+    "opacity": {
+      "by": "letters",
+      "start": 0,
+      "end": 17,
+      "stagger": 50,
+      "from": 0,
+      "to": 1,
+      "ease": "out_quad"
+    },
+    "blur": {
+      "by": "letters",
+      "start": 0,
+      "end": 22,
+      "stagger": 18.8,
+      "from": 0.18,
+      "to": 0,
+      "ease": "out_cubic"
+    },
+    "size": {
+      "by": "letters",
+      "start": 0,
+      "end": 24,
+      "stagger": 15,
+      "from": 2.2,
+      "to": 1,
+      "ease": "out_cubic"
+    }
+  },
+  "out": {
+    "opacity": {
+      "by": "letters",
+      "start": 0,
+      "end": 14,
+      "stagger": 11.4,
+      "to": 0,
+      "ease": "in_quad"
+    },
+    "size": {
+      "by": "letters",
+      "start": 0,
+      "end": 14,
+      "stagger": 11.4,
+      "to": 0,
+      "ease": "in_back"
+    }
+  },
+  "out_from_end": 4,
+  "elements": {
+    "1": {
+      "appearance": "normal",
+      "color": [
+        0.7843,
+        1,
+        0.5412
+      ],
+      "opacity": 1,
+      "thickness": 0.02,
+      "offset": [
+        0,
+        0
+      ],
+      "softness": 0,
+      "border_level": "letters",
+      "extend": [
+        0,
+        0
+      ],
+      "round": 0,
+      "gradient": {
+        "colors": {
+          "0": [
+            0.7843,
+            1.0,
+            0.5412,
+            1.0
+          ],
+          "0.5": [
+            0.2392,
+            0.8627,
+            0.5176,
+            1.0
+          ],
+          "1": [
+            0.0431,
+            0.5412,
+            0.2431,
+            1.0
+          ]
+        },
+        "angle": 0,
+        "span": "text",
+        "scale": 1,
+        "aspect": 1
+      }
+    },
+    "2": {
+      "appearance": "outline",
+      "color": [
+        0.0235,
+        0.2314,
+        0.1098
+      ],
+      "opacity": 1,
+      "thickness": 0.0117,
+      "offset": [
+        0,
+        0
+      ],
+      "softness": 0,
+      "border_level": "letters",
+      "extend": [
+        0,
+        0
+      ],
+      "round": 0
+    },
+    "3": {
+      "appearance": "normal",
+      "color": [
+        0,
+        0,
+        0
+      ],
+      "opacity": 0.5,
+      "thickness": 0.02,
+      "offset": [
+        0.0052,
+        -0.0104
+      ],
+      "softness": 0.05,
+      "border_level": "letters",
+      "extend": [
+        0,
+        0
+      ],
+      "round": 0
+    }
+  },
+  "motion_blur": {
+    "shutter": 180,
+    "quality": 2,
+    "bias": 0,
+    "spread": 1
+  },
+  "inputs": {
+    "ShadingElement2Gradient": "",
+    "ShadingElement3Gradient": "",
+    "ShadingElement4Gradient": "",
+    "ShadingElement5Gradient": "",
+    "ShadingElement6Gradient": "",
+    "ShadingElement7Gradient": "",
+    "ShadingElement8Gradient": "",
+    "IncenterCurvePresetID": "linear",
+    "IntrackingCurvePresetID": "linear",
+    "InrotationCurvePresetID": "linear",
+    "InexplosionCurvePresetID": "linear",
+    "OutblurCurvePresetID": "linear",
+    "OutcenterCurvePresetID": "linear",
+    "OuttrackingCurvePresetID": "linear",
+    "OutrotationCurvePresetID": "linear",
+    "OutexplosionCurvePresetID": "linear"
+  }
+}

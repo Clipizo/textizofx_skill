@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+# Your own looks stay out of the kit
+my-looks/*
+!my-looks/README.md

@@ -1,0 +1,316 @@
+{
+  "name": "Bounce Drop",
+  "text": "BOUNCE!",
+  "font": "Arial Black",
+  "style": "Regular",
+  "size": 2.4,
+  "center": [
+    0.5,
+    0.5
+  ],
+  "align": "center",
+  "vertical_anchor": "baseline",
+  "tracking": 0,
+  "line_spacing": 1,
+  "rotation": 0,
+  "rotation_x": 0,
+  "rotation_y": 0,
+  "fit": true,
+  "alpha": 1,
+  "in": {
+    "opacity": {
+      "by": "letters",
+      "start": 0,
+      "end": 16,
+      "stagger": 50,
+      "from": 0,
+      "to": 1,
+      "ease": "out_quad"
+    },
+    "blur": {
+      "by": "letters",
+      "start": 0,
+      "end": 18,
+      "stagger": 33.3,
+      "from": 0.1,
+      "to": 0,
+      "ease": "out_cubic"
+    },
+    "position": {
+      "by": "letters",
+      "start": 0,
+      "end": 24,
+      "stagger": 16.7,
+      "from": [
+        0,
+        0.45
+      ],
+      "to": [
+        0,
+        0
+      ],
+      "ease": "out_bounce"
+    },
+    "rotation": {
+      "by": "letters",
+      "start": 0,
+      "end": 26,
+      "stagger": 14.3,
+      "from": -25,
+      "to": 0,
+      "ease": "out_elastic"
+    }
+  },
+  "out": {
+    "opacity": {
+      "by": "letters",
+      "start": 100,
+      "end": 116,
+      "stagger": 21.4,
+      "to": 0,
+      "ease": "in_cubic"
+    },
+    "blur": {
+      "by": "letters",
+      "start": 100,
+      "end": 116,
+      "stagger": 21.4,
+      "to": 0.08,
+      "ease": "in_quad"
+    },
+    "position": {
+      "by": "letters",
+      "start": 100,
+      "end": 116,
+      "stagger": 21.4,
+      "to": [
+        0,
+        0.7
+      ],
+      "ease": "in_back"
+    },
+    "rotation": {
+      "by": "letters",
+      "start": 100,
+      "end": 116,
+      "stagger": 21.4,
+      "to": 120,
+      "ease": "in_back"
+    }
+  },
+  "elements": {
+    "1": {
+      "appearance": "normal",
+      "color": [
+        1,
+        0.2,
+        0.55
+      ],
+      "opacity": 1,
+      "thickness": 0.02,
+      "offset": [
+        0,
+        0
+      ],
+      "softness": 0,
+      "border_level": "letters",
+      "extend": [
+        0,
+        0
+      ],
+      "round": 0
+    },
+    "2": {
+      "appearance": "outline",
+      "color": [
+        0,
+        0,
+        0
+      ],
+      "opacity": 1,
+      "thickness": 0.009,
+      "offset": [
+        0,
+        0
+      ],
+      "softness": 0,
+      "border_level": "letters",
+      "extend": [
+        0,
+        0
+      ],
+      "round": 0
+    },
+    "3": {
+      "appearance": "normal",
+      "color": [
+        0,
+        0,
+        0
+      ],
+      "opacity": 0.85,
+      "thickness": 0.02,
+      "offset": [
+        0.006,
+        -0.012
+      ],
+      "softness": 0,
+      "border_level": "letters",
+      "extend": [
+        0,
+        0
+      ],
+      "round": 0
+    }
+  },
+  "motion_blur": {
+    "shutter": 180,
+    "quality": 2,
+    "bias": 0,
+    "spread": 1
+  },
+  "inputs": {
+    "ShadingProxyGradient": {
+      "0": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "1": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "ShadingElement1Gradient": {
+      "0": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "1": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "ShadingElement2Gradient": {
+      "0": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "1": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "ShadingElement3Gradient": {
+      "0": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "1": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "ShadingElement4Gradient": {
+      "0": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "1": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "ShadingElement5Gradient": {
+      "0": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "1": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "ShadingElement6Gradient": {
+      "0": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "1": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "ShadingElement7Gradient": {
+      "0": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "1": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "ShadingElement8Gradient": {
+      "0": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "1": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "InsizeAnimationEnd": 26,
+    "InsizeStagger": 17,
+    "InsizeCurvePreset": "out_elastic",
+    "InsizeCurvePresetID": "out_elastic",
+    "IntrackingAnimationEnd": 18,
+    "IntrackingStagger": 0,
+    "IntrackingStartValue": 0.05,
+    "IntrackingCurvePreset": "out_back",
+    "IntrackingCurvePresetID": "out_back",
+    "InexplosionCurvePresetID": "linear",
+    "OutsizeAnimationEnd": 116,
+    "OutsizeStagger": 25,
+    "OutsizeCurvePreset": "in_back",
+    "OutsizeCurvePresetID": "in_back",
+    "OuttrackingCurvePresetID": "linear",
+    "OutexplosionCurvePresetID": "linear"
+  }
+}

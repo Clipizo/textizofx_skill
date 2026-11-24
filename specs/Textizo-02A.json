@@ -1,0 +1,179 @@
+{
+  "name": "Textizo-02A",
+  "text": "NEON NIGHTS",
+  "font": "Arial Black",
+  "style": "Regular",
+  "size": 1.5,
+  "center": [
+    0.5,
+    0.4389
+  ],
+  "align": "center",
+  "vertical_anchor": "baseline",
+  "tracking": 0,
+  "line_spacing": 1,
+  "rotation": 0,
+  "rotation_x": 0,
+  "rotation_y": 0,
+  "fit": true,
+  "alpha": 1,
+  "in": {
+    "opacity": {
+      "by": "letters",
+      "start": 0,
+      "end": 20,
+      "stagger": 100,
+      "from": 0,
+      "to": 1,
+      "ease": "out_quad"
+    },
+    "blur": {
+      "by": "letters",
+      "start": 0,
+      "end": 25,
+      "stagger": 28.6,
+      "from": 0.2,
+      "to": 0,
+      "ease": "out_cubic"
+    },
+    "size": {
+      "by": "letters",
+      "start": 0,
+      "end": 27,
+      "stagger": 22.2,
+      "from": 1.35,
+      "to": 1,
+      "ease": "out_cubic"
+    }
+  },
+  "out": {
+    "opacity": {
+      "by": "letters",
+      "start": 100,
+      "end": 114,
+      "stagger": 20,
+      "to": 0,
+      "ease": "in_quad"
+    },
+    "blur": {
+      "by": "letters",
+      "start": 100,
+      "end": 114,
+      "stagger": 20,
+      "to": 0.2,
+      "ease": "in_quad"
+    }
+  },
+  "elements": {
+    "1": {
+      "appearance": "normal",
+      "color": [
+        0.9137,
+        1,
+        1
+      ],
+      "opacity": 1,
+      "thickness": 0.02,
+      "offset": [
+        0,
+        0
+      ],
+      "softness": 0,
+      "border_level": "letters",
+      "extend": [
+        0,
+        0
+      ],
+      "round": 0
+    },
+    "3": {
+      "appearance": "normal",
+      "color": [
+        0,
+        0.898,
+        1
+      ],
+      "opacity": 0.95,
+      "thickness": 0.02,
+      "offset": [
+        0,
+        0
+      ],
+      "softness": 0.08,
+      "border_level": "letters",
+      "extend": [
+        0,
+        0
+      ],
+      "round": 0
+    },
+    "4": {
+      "appearance": "outline",
+      "color": [
+        0,
+        0.7216,
+        1
+      ],
+      "opacity": 0.6,
+      "thickness": 0.014,
+      "offset": [
+        0,
+        0
+      ],
+      "softness": 0.13,
+      "border_level": "letters",
+      "extend": [
+        0.02,
+        0.02
+      ],
+      "round": 0
+    }
+  },
+  "motion_blur": false,
+  "inputs": {
+    "ShadingProxyGradient": {
+      "0": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "1": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "ShadingElement1Gradient": {
+      "0": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "1": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "ShadingElement2Gradient": "",
+    "ShadingElement3Gradient": "",
+    "ShadingElement4Gradient": "",
+    "ShadingElement5Gradient": "",
+    "ShadingElement6Gradient": "",
+    "ShadingElement7Gradient": "",
+    "ShadingElement8Gradient": "",
+    "IncenterCurvePresetID": "linear",
+    "IntrackingCurvePresetID": "linear",
+    "InrotationCurvePresetID": "linear",
+    "InexplosionCurvePresetID": "linear",
+    "OutcenterCurvePresetID": "linear",
+    "OutsizeCurvePresetID": "linear",
+    "OuttrackingCurvePresetID": "linear",
+    "OutrotationCurvePresetID": "linear",
+    "OutexplosionCurvePresetID": "linear"
+  }
+}

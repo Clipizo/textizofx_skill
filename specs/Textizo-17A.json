@@ -1,0 +1,151 @@
+{
+  "name": "Textizo-17A",
+  "text": "hello there!",
+  "font": "Permanent Marker",
+  "style": "Regular",
+  "size": 2.4,
+  "center": [
+    0.5,
+    0.4022
+  ],
+  "align": "center",
+  "vertical_anchor": "baseline",
+  "tracking": 0,
+  "line_spacing": 1,
+  "rotation": -3,
+  "rotation_x": 0,
+  "rotation_y": 0,
+  "fit": true,
+  "alpha": 1,
+  "in": {
+    "opacity": {
+      "by": "letters",
+      "start": 0,
+      "end": 16,
+      "stagger": 150,
+      "from": 0,
+      "to": 1,
+      "ease": "linear"
+    },
+    "size": {
+      "by": "letters",
+      "start": 0,
+      "end": 21,
+      "stagger": 25,
+      "from": 1.5,
+      "to": 1,
+      "ease": "out_back"
+    }
+  },
+  "out": {
+    "opacity": {
+      "by": "letters",
+      "start": 0,
+      "end": 12,
+      "stagger": 14,
+      "to": 0,
+      "ease": "in_quad"
+    },
+    "size": {
+      "by": "letters",
+      "start": 0,
+      "end": 12,
+      "stagger": 14,
+      "to": 0.6,
+      "ease": "in_quad"
+    }
+  },
+  "out_from_end": 4,
+  "elements": {
+    "1": {
+      "appearance": "normal",
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "opacity": 1,
+      "thickness": 0.02,
+      "offset": [
+        0,
+        0
+      ],
+      "softness": 0,
+      "border_level": "letters",
+      "extend": [
+        0,
+        0
+      ],
+      "round": 0
+    },
+    "3": {
+      "appearance": "normal",
+      "color": [
+        0,
+        0,
+        0
+      ],
+      "opacity": 0.6,
+      "thickness": 0.02,
+      "offset": [
+        0.0048,
+        -0.0096
+      ],
+      "softness": 0.05,
+      "border_level": "letters",
+      "extend": [
+        0,
+        0
+      ],
+      "round": 0
+    }
+  },
+  "motion_blur": false,
+  "inputs": {
+    "ShadingProxyGradient": {
+      "0": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "1": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "ShadingElement1Gradient": {
+      "0": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "1": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "ShadingElement2Gradient": "",
+    "ShadingElement3Gradient": "",
+    "ShadingElement4Gradient": "",
+    "ShadingElement5Gradient": "",
+    "ShadingElement6Gradient": "",
+    "ShadingElement7Gradient": "",
+    "ShadingElement8Gradient": "",
+    "InblurCurvePresetID": "linear",
+    "IncenterCurvePresetID": "linear",
+    "IntrackingCurvePresetID": "linear",
+    "InrotationCurvePresetID": "linear",
+    "InexplosionCurvePresetID": "linear",
+    "OutblurCurvePresetID": "linear",
+    "OutcenterCurvePresetID": "linear",
+    "OuttrackingCurvePresetID": "linear",
+    "OutrotationCurvePresetID": "linear",
+    "OutexplosionCurvePresetID": "linear"
+  }
+}
